@@ -24,6 +24,7 @@ Always use at least **Python 3.12**.
 This configuration **does not work with lower versions**.
 
 `ENVIRONMENT_NAME` refers to the name of your environment when using the install command.
+
 ---
 
 ## Installation Steps
