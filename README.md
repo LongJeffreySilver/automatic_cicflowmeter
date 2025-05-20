@@ -80,12 +80,10 @@ You can manually use the environment with the above commands, but to automate th
 
     ./launch_cfm.sh trace.pcap result.csv
 
-
 This script executes the following command.
 
-    ```bash
     SCAPY_BPF=0 cicflowmeter -f trace.pcap -c result.csv"
-    ```
+
 
 ---
 
