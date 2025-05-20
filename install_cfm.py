@@ -76,7 +76,7 @@ print(dedent(f"""
 # Activating the environment
 source {ACTIVATE}
 
-# parsing pcap → CSV
+# Parsing pcap → CSV
 SCAPY_BPF=0 cicflowmeter -f trace.pcap -c result.csv -v
 
 # Leaving the environment
