@@ -64,7 +64,7 @@ This configuration **does not work with lower versions**.
     source {ACTIVATE}
     ```
 
-    Parsing pcap → CSV
+    Parsing PCAP → CSV
     ```bash
     SCAPY_BPF=0 cicflowmeter -f trace.pcap -c result.csv -v
     ```
