@@ -59,32 +59,29 @@ This configuration **does not work with lower versions**.
 
 4. **Once the environment is installed successfully, you will see the following message:**
 
-┌──────────────────────────────────────────────┐
-│  Common ussage                               │
-└──────────────────────────────────────────────┘
-Activating the environment
+    Activating the environment
     ```bash
     source {ACTIVATE}
     ```
 
-Parsing pcap → CSV
+    Parsing pcap → CSV
     ```bash
     SCAPY_BPF=0 cicflowmeter -f trace.pcap -c result.csv -v
     ```
-Leaving the environment
+    Leaving the environment
     ```bash
     deactivate
     ```
 
-You can manually use the environment with the above commands, but to automate the process of analyzing flows between traces, use the launch_cfm.sh script.
+    You can manually use the environment with the above commands, but to automate the process of analyzing flows between traces, use the launch_cfm.sh script.
     ```bash
     ./launch_cfm.sh trace.pcap result.csv
     ```
-This script executes the following command:
+    This script executes the following command:
     ```bash
     SCAPY_BPF=0 cicflowmeter -f trace.pcap -c result.csv"
     ```
-
+---
 ## Notes
 
 Make sure to replace **{ACTIVATE}** with the path to the activation script for your environment.
