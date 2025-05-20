@@ -14,15 +14,16 @@
 
 ## Modifications
 
-- `~/cfm_env/lib/python3.XX/site-packages/cicflowmeter/features/packet_time.py`
-- `~/cfm_env/lib/python3.XX/site-packages/cicflowmeter/utils.py`
-- `~/cfm_env/lib/python3.XX/site-packages/cicflowmeter/flow_session.py`
+- `~/ENVIRONMENT_NAME/lib/python3.XX/site-packages/cicflowmeter/features/packet_time.py`
+- `~/ENVIRONMENT_NAME/lib/python3.XX/site-packages/cicflowmeter/utils.py`
+- `~/ENVIRONMENT_NAME/lib/python3.XX/site-packages/cicflowmeter/flow_session.py`
 
 **Note:**  
 `python3.XX` refers to the version of the Python interpreter.  
 Always use at least **Python 3.12**.  
 This configuration **does not work with lower versions**.
 
+`ENVIRONMENT_NAME` refers to the name of your environment when using the install command.
 ---
 
 ## Installation Steps
@@ -42,7 +43,7 @@ This configuration **does not work with lower versions**.
 3. **Install the environment:**
 
     ```bash
-    python3 install_cfm.py environment /usr/bin/python3.XX
+    python3 install_cfm.py ENVIRONMENT_NAME /usr/bin/python3.XX
     ```
 
     **Example:**
