@@ -78,9 +78,8 @@ This configuration **does not work with lower versions**.
 
 You can manually use the environment with the above commands, but to automate the process of analyzing flows between traces, use the launch_cfm.sh script.
 
-    ```bash
     ./launch_cfm.sh trace.pcap result.csv
-    ```
+
 
 This script executes the following command.
 
